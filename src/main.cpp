@@ -25,7 +25,7 @@ struct Marker_localizer {
 		// get observations and correct
 		for (int i = 0; i < msg->transforms.size(); i++) {
 			if (msg->transforms[i].header.frame_id
-					== "/ardrone_base_bottomcam") {
+					== "/camera") {
 				if(msg->transforms[i].child_frame_id=="/4x4_1"){
 					ROS_INFO("detected marker /4x4_1");
 				}
