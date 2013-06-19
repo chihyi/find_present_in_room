@@ -1,0 +1,20 @@
+<package>
+  <description brief="find_present_in_room">
+
+     find_present_in_room
+
+  </description>
+  <author>chihyi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/find_present_in_room</url>
+  <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="common_rosdeps"/>
+  <depend package="visualization_msgs"/>
+
+</package>
+
+
